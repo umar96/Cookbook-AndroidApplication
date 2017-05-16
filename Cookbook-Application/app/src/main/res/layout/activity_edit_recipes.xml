@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit_recipes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/create_bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.unaizrehmani.finalcookbook.EditRecipes">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Kitchen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/kitchenTitle"
+            android:fontFamily="monospace"
+            android:typeface="monospace"
+            android:textSize="40sp"
+            android:textStyle="normal|bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:text="ADD RECIPE"
+            android:background="@drawable/button_white"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@+id/addRecipeFinalButton"
+            android:layout_weight="1"
+            android:onClick="clickAddRecipe"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_below="@+id/kitchenTitle"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="96dp" />
+
+        <Button
+            android:text="DELETE RECIPE"
+            android:background="@drawable/button_white"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@+id/deleteRecipeFinalButton"
+            android:layout_weight="1"
+            android:onClick="clickDeleteRecipe"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="38dp"
+            android:layout_below="@+id/editRecipeFinalButton"
+            android:layout_alignLeft="@+id/addRecipeFinalButton"
+            android:layout_alignStart="@+id/addRecipeFinalButton" />
+
+        <Button
+            android:text="EDIT DISH STYLE"
+            android:background="@drawable/button_white"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@+id/editCategoryType"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:onClick="clickEditCategoryType"
+            android:layout_alignTop="@+id/deleteRecipeFinalButton"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:text="EDIT RECIPE"
+            android:background="@drawable/button_white"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@+id/editRecipeFinalButton"
+            android:layout_weight="1"
+            android:onClick="clickEditRecipe"
+            android:textColor="@android:color/white"
+            android:layout_alignTop="@+id/addRecipeFinalButton"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

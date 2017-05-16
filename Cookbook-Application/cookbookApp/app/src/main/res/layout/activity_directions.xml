@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fridge"
+    android:layout_weight="1">
+
+    <TextView
+        android:text="Directions"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:id="@+id/textView2"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:layout_weight="1" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:text="1. Put on a pot of boiling hot water"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView21"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:text="2. Put noodles into boiling hot water till its completely cooked"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView20"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:text="3. Put chopped chicken into the pot "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView19"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"></LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

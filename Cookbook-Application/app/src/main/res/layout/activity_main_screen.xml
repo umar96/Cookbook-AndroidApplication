@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.unaizrehmani.finalcookbook.MainScreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            app:srcCompat="@mipmap/main_icon"
+            android:id="@+id/appIcon"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:text="COOK"
+            android:background="@drawable/button_white"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@+id/findRecipeButton"
+            android:layout_weight="1"
+            android:onClick="clickFindRecipes"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/appIcon"
+            android:layout_alignLeft="@+id/editIngredientsButton"
+            android:layout_alignStart="@+id/editIngredientsButton"
+            android:layout_marginTop="25dp" />
+
+        <Button
+            android:text="FRIDGE"
+            android:background="@drawable/button_white"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@+id/editIngredientsButton"
+            android:layout_weight="1"
+            android:onClick="clickEditIngredients"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/findRecipeButton"
+            android:layout_alignLeft="@+id/editRecipesButton"
+            android:layout_alignStart="@+id/editRecipesButton"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:text="KITCHEN"
+            android:background="@drawable/button_white"
+            android:layout_height="70dp"
+            android:id="@+id/editRecipesButton"
+            android:layout_weight="1"
+            android:onClick="clickEditRecipes"
+            android:textColor="@android:color/white"
+            android:layout_width="150dp"
+            android:layout_below="@+id/editIngredientsButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:text=" ? "
+            android:background="@drawable/button_white"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/helpButton"
+            android:textColor="@android:color/white"
+            android:onClick="clickHelp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/editRecipesButton"
+            android:layout_alignStart="@+id/editRecipesButton" />
+
+        <Button
+            android:text=" ! "
+            android:background="@drawable/button_white"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/aboutButton"
+            android:textColor="@android:color/white"
+            android:onClick="clickAbout"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/editRecipesButton"
+            android:layout_alignEnd="@+id/editRecipesButton" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

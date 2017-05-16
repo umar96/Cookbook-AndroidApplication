@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit_text_ingredient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/create_bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.unaizrehmani.finalcookbook.EditTextIngredient">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/ingreidentToEditTextView"
+                android:layout_weight="1"
+                android:gravity="center"
+                tools:text="Ingredient Name"
+                android:textColor="@android:color/white"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+            <EditText
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:textSize="10sp"
+                android:ems="10"
+                android:id="@+id/newIngredientNameEditText"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:hint="New Name of Ingredient" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="Save"
+            android:background="@drawable/button_white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editSingleIngredientNameButton"
+            android:layout_weight="3"
+            android:textColor="@android:color/white"
+            android:onClick="clickToEdit" />
+
+    </LinearLayout>
+</RelativeLayout>

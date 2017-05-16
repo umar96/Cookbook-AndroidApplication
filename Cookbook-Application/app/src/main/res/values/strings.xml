@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">FinalCookBook</string>
+
+
+    <string-array name="categories">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snack</item>
+
+    </string-array>
+
+    <string-array name="types">
+        <item>American</item>
+        <item>Italian</item>
+        <item>Asian</item>
+        <item>Mexican</item>
+
+    </string-array>
+
+    <string name="help_page_menu_title">HELP MENU</string>
+
+    <string name="menu_button_find_recipe">HOW TO FIND A RECIPE</string>
+    <string name="menu_button_add_recipe">HOW TO ADD A RECIPE</string>
+    <string name="menu_button_edit_recipe">HOW TO EDIT A RECIPE</string>
+    <string name="menu_button_delete_recipe">HOW TO DELETE A RECIPE</string>
+    <string name="menu_button_edit_ingredients">HOW TO EDIT THE INGREDIENT LIST</string>
+    <string name="return_to_home">HOME</string>
+    <string name="return_to_menu">RETURN</string>
+
+    <string name="help_find_recipe_title">HOW TO FIND A RECIPE</string>
+    <string name="find_recipe_instruction1">
+        Tap on the FIND RECIPE button on the main screen.</string>
+    <string name="find_recipe_instruction2">
+        Select CATEGORY (ex breakfast) and TYPE (ex. Italian) from the dropdown menus at the
+        top of the screen. Any will search through all categories/types.</string>
+    <string name="find_recipe_instruction3">
+        Select the desired ingredients scrolling through the ingredient list and
+        tapping on the checkboxes next to the ingredient name.</string>
+    <string name="find_recipe_instruction4">
+        Tap on the NEXT button at the bottom of the screen to bring up the page
+        exclude ingredients.</string>
+    <string name="find_recipe_instruction5">
+        Select the ingredients to exclude by scrolling through the ingredient list and
+        tapping on the checkboxes next to the ingredient name.</string>
+    <string name="find_recipe_instruction6">
+        Tap the FINISH button to view a list of recipes that match the selected criteria.
+        These recipes are categorized in descending order based on the number of matching
+        ingredients.</string>
+    <string name="find_recipe_instruction7">
+        Tap on the desired recipe to bring up its respective page.</string>
+
+    <string name="help_add_recipe_title">HOW TO ADD A NEW RECIPE</string>
+    <string name="add_recipe_instruction1">
+        Tap on the EDIT RECIPE button on the main screen.</string>
+    <string name="add_recipe_instruction2">
+        Tap the ADD RECIPE button to bring up the recipe creation page.</string>
+    <string name="add_recipe_instruction3">
+        Enter the recipe name at the top of the screen.</string>
+    <string name="add_recipe_instruction4">
+        Enter the preparation time (time before cooking, ex. chopping vegetables)
+        in minutes, in its respective text field.</string>
+    <string name="add_recipe_instruction5">
+        Enter the cook time (time taken to cook the dish) in minutes, into its
+        respective text field.</string>
+    <string name="add_recipe_instruction6">
+        Enter the amount of calories into its text field.</string>
+    <string name="add_recipe_instruction7">
+        Select the category (ex lunch) and types (ex Indian) from the dropdown menus.</string>
+    <string name="add_recipe_instruction8">
+        Select the desired ingredients by scrolling through the ingredient list
+        and tapping the checkboxes next to the ingredient name.</string>
+    <string name="add_recipe_instruction9">
+        Tap on the CREATE button to go to add directions page.</string>
+    <string name="add_recipe_instruction10">
+        Enter the direction in the text field and tap on the ADD button to add it
+        to the list of directions for the recipe.</string>
+    <string name="add_recipe_instruction11">
+        Tap on the CREATE button to create the new recipe.</string>
+
+    <string name="help_edit_recipe_title">HOW TO EDIT A RECIPE</string>
+    <string name="edit_recipe_instruction1">
+        Tap on the EDIT RECIPE button on the main screen.</string>
+    <string name="edit_recipe_instruction2">
+        Tap the EDIT RECIPE button to bring up the recipe edit page.</string>
+    <string name="edit_recipe_instruction3">
+        Scroll through the list of recipes and tap the one you wish to edit. This brings
+        up the page for the recipe.</string>
+    <string name="edit_recipe_instruction4">
+        Edit the desired recipe properties.</string>
+
+    <string name="help_delete_recipe_title">HOW TO DELETE A RECIPE</string>
+    <string name="delete_recipe_instruction1">
+        Tap on the EDIT RECIPE button on the main screen.</string>
+    <string name="delete_recipe_instruction2">
+        Tap the DELETE RECIPE button to bring up the recipe edit page.</string>
+    <string name="delete_recipe_instruction3">
+        Scroll through the list of recipes and tap the one you wish to delete.</string>
+
+    <string name="help_edit_ingredients_title">HOW TO EDIT THE INGREDIENT LIST</string>
+    <string name="edit_ingredients_instruction1">
+        Tap on the EDIT INGREDIENTS button on the main screen.</string>
+    <string name="edit_ingredients_instruction2">
+        Type in the ingredient you wish to add or remove from the ingredient list, into the
+        text field at the top left of the screen.</string>
+    <string name="edit_ingredients_instruction3">
+        Tap the ADD button to add the new ingredient to the list or tap the
+        DELETE button to remove the ingredient from the list.</string>
+
+
+
+</resources>
